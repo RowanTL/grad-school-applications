@@ -16,7 +16,6 @@
           packages = [
             pkgs.texliveFull # complete TeX Live distribution
             pkgs.biber       # bibliography backend for biblatex
-            pkgs.latexmk     # build automation
             pkgs.texlab      # LSP (optional, for editors)
           ];
         };
