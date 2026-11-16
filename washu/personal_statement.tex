@@ -4,15 +4,24 @@
 \usepackage{setspace}
 \usepackage{microtype}
 \usepackage{parskip}
+\usepackage[backend=biber,style=numeric,sorting=nyt]{biblatex}
+\addbibresource{references.bib}
 
 \onehalfspacing
 
 \title{Washington University PhD Personal Statement}
 \author{Rowan Torbitzky-Lane}
-\date{}
+\date{December 1, 2026}
 
 \begin{document}
 
 \maketitle
+
+I embarked on my first challenging computer project when I was ten. I wanted to start my own Minecraft server. After learning the steps from a YouTube video and forwarding a port, I was running a Minecraft server on my dad's old laptop. As I grew older, my curiosity broadened. I learned to program in high school and built my own PC. After attempts to study other fields, my place is in computer vision or graphics.
+
+My professional experience ranges machine learning with relevant applications to computer vision/graphics. To begin, my first professional experience was at Hunter Engineering. I learned PyTorch, Anaconda, and used \textit{YOLOv5} \cite{terven2023yolo} to recognize license plates from North America and Europe. Furthermore, I wrote the first iteration of an automated data downloading process still in use today. The next year, I got my first taste of research. I worked at the Center for Intelligent Infrastructure at Missouri S\&T. I was tasked with using optical flow to propagate image segmentation annotations in a video. We used outdated MATLAB code which needed updating to run on the latest version. I had a basic prototype functional before I left. I did not see eye to eye with my coworker. Looking back, I would handle the situation differently and not hastily leave. I was accepted into a REU program the next summer at Missouri S\&T. I learned how to read papers, gained basic knowledge of transformers, and experienced the world of bioinformatics. I read \textit{Attention is All You Need} \cite{vaswani2017attention} and papers discussing bi-directional LLMs \cite{schiff2024caduceus}. My latest research experience was conducted at USC's Institute for Creative Technologies. I was tasked with giving gaussian splats physics properties in conjunction with an underlying mesh inside of the Unity game engine. We needed to efficiently correspond about 7 million splats (which are points in three dimensional space with extra metadata) to a mesh with about 350 thousand faces. C\# was too slow of a language (about 1000 spalts processed per second). Using a Rust FFI, I 
+
+\pagebreak
+\printbibliography
 
 \end{document}
